@@ -1,0 +1,56 @@
+name: spr
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+ sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  connectivity_plus: ^5.0.2
+  #ANDROID IOS LINUX MACOS WEB WINDOWS
+  flutter_inappwebview: ^5.8.0
+  # ANDROID IOS
+  modal_bottom_sheet: ^2.1.2
+  # Android, IOS, WEB
+  shimmer: ^3.0.0
+  # Android, IOS, WEB
+  syncfusion_flutter_pdfviewer: ^24.1.41
+  # ANDROID IOS WEB
+  shared_preferences: ^2.2.0
+  #ANDROID IOS LINUX MACOS WEB WINDOWS
+  url_launcher: ^6.1.11
+  # ANDROID IOS LINUX MACOS WEB WINDOWS
+  cupertino_icons: ^1.0.5
+
+  flutter_launcher_icons: ^0.13.1
+  # Android, IOS
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+
+  flutter_native_splash: ^2.2.18
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logocor.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_icons:
+  image_path_android: "assets/ic_launcher_round.png"
+  image_path_ios: "assets/ic_launcher_round.png"
+  android: true
+  ios: true

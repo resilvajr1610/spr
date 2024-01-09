@@ -276,7 +276,7 @@ class _LesCCState extends State<LesCC> {
                               width: MediaQuery.of(context).size.width,
                               child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      primary: Colors.teal),
+                                      backgroundColor: Colors.teal),
                                   onPressed: () {
                                     if (checkListCriterios[1].value == true &&
                                         checkListCriterios[2].value == true) {

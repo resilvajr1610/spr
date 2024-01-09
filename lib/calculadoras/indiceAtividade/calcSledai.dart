@@ -176,7 +176,7 @@ class _CalcSledaiState extends State<CalcSledai> {
                         width: MediaQuery.of(context).size.width,
                         child: ElevatedButton(
                             style:
-                                ElevatedButton.styleFrom(primary: Colors.teal),
+                                ElevatedButton.styleFrom(backgroundColor: Colors.teal),
                             onPressed: () {
                               atividadeSLEDAI2K();
                               goToBottomOfPage();

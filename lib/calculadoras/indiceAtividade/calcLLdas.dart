@@ -130,7 +130,7 @@ class _CalcLLdasState extends State<CalcLLdas> {
                         width: MediaQuery.of(context).size.width,
                         child: ElevatedButton(
                             style:
-                                ElevatedButton.styleFrom(primary: Colors.teal),
+                                ElevatedButton.styleFrom(backgroundColor: Colors.teal),
                             onPressed: () {
                               int soma = somaPontosList(checkListAchadosEpa);
                               setState(() {

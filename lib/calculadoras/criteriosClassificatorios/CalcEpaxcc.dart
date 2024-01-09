@@ -258,7 +258,7 @@ class _CalcEpaxccState extends State<CalcEpaxcc> {
                               width: MediaQuery.of(context).size.width,
                               child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      primary: Colors.teal),
+                                      backgroundColor: Colors.teal),
                                   onPressed: () {
                                     int? soma =
                                         somaPontosList(checkListAchadosEpaImagem)! +

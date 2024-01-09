@@ -437,7 +437,7 @@ class _CalcArtriteAcrState extends State<CalcArtriteAcr> {
                   criterioEntrada ? Container(
                     width: MediaQuery.of(context).size.width,
                     child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(primary: Colors.teal),
+                        style: ElevatedButton.styleFrom(backgroundColor: Colors.teal),
                         onPressed: () {
                           bool check = checkIfNotChecked();
                           if (check == true) {

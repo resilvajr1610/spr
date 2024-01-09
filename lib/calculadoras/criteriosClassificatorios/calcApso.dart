@@ -188,7 +188,7 @@ class _CalcApsoState extends State<CalcApso> {
                             .width,
                         child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                primary: Colors.teal),
+                                backgroundColor: Colors.teal),
                             onPressed: () {
                               int maior = checkMaior();
                               int soma;

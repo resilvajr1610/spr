@@ -302,7 +302,7 @@ class _CalcEspondiloState extends State<CalcEspondilo> {
                     Container(
                       width: MediaQuery.of(context).size.width * 0.8,
                       child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(primary: Colors.teal),
+                          style: ElevatedButton.styleFrom(backgroundColor: Colors.teal),
                           onPressed: () {
                             bool check = checkNull();
                             if (check) {

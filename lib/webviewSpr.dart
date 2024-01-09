@@ -204,7 +204,7 @@ class _WebviewSprState extends State<WebviewSpr> {
                                   const EdgeInsets.symmetric(horizontal: 10.0),
                               child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      primary: Cores.corprincipal),
+                                      backgroundColor: Cores.corprincipal),
                                   onPressed: () {
                                     launchURLRegistroOuVoltarWebview();
                                   },

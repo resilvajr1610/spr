@@ -165,7 +165,7 @@ class _CalcEpApState extends State<CalcEpAp> {
                               width: MediaQuery.of(context).size.width,
                               child: ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      primary: Colors.teal),
+                                      backgroundColor: Colors.teal),
                                   onPressed: () {
                                     int soma =
                                         somaPontosList(checkListAchadosEpa) +

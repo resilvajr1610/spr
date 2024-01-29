@@ -225,7 +225,7 @@ class _WebviewSprInicioState extends State<WebviewSprInicio> {
 
   Future<void> metdosWebview(Uri? url, BuildContext context) async {
     await removeHeaderNavBar(url);
-    removerLoginGoogleFace(url);
+    // removerLoginGoogleFace(url);
     verificarUsuarioLogado();
     irParaCalculadora(context);
     irParaRevista(url);

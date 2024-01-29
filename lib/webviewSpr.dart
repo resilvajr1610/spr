@@ -232,7 +232,7 @@ class _WebviewSprState extends State<WebviewSpr> {
   Future<void> metdosWebview(Uri? url, BuildContext context) async {
     print("chmou metodo webview");
     await removeHeaderNavBar(url);
-    removerLoginGoogleFace(url);
+    // removerLoginGoogleFace(url);
     verificarUsuarioLogado();
     irParaCalculadora(context);
     irParaRevista(url);
@@ -244,7 +244,7 @@ class _WebviewSprState extends State<WebviewSpr> {
     print('entrou');
     if (url.toString() != 'https://www.reumatologiasp.com.br/entrar/' ||
         url.toString() !=
-            'https://www.reumatologiasp.com.br/entrar/?redirect_to=https%3A%2F%2Fwww.reumatologiasp.com.br%2Fconta%2F') {
+            'https://www.reumatologiasp.com.br/entrar/?redirect_to=https%3A%2F%2Fwww.reumatologiasp.com.br%2Fconta%2F' ||    url.toString() != "https://www.reumatologiasp.com.br/entrar/?redirect_to=https%3A%2F%2Fwww.reumatologiasp.com.br%2Fconta%2F") {
       print('remove headernavbar');
       await webViewController
           .evaluateJavascript(

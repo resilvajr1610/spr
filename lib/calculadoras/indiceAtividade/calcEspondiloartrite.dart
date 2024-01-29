@@ -1,7 +1,6 @@
 import 'dart:math';
-
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:spr/calculadoras/referencias/refIndiceAtividade.dart';
 import 'package:spr/standard/pesquisa.dart';
 
@@ -335,7 +334,7 @@ class _CalcEspondiloState extends State<CalcEspondilo> {
   }
 
   modalProduto() {
-    showCupertinoModalBottomSheet(
+    showCupertinoDialog(
       context: context,
       builder: (context) {
         return Scaffold(

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:spr/calculadoras/referencias/refCriteriosClassificatorios.dart';
 
 import '../../standard/design.dart';
@@ -470,7 +469,7 @@ class _CalcArtriteAcrState extends State<CalcArtriteAcr> {
   }
 
   modalMetrica() {
-    showCupertinoModalBottomSheet(
+    showCupertinoDialog(
       context: context,
       builder: (context) {
         return Scaffold(

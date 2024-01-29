@@ -2,8 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
-
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:spr/calculadoras/referencias/refIndiceAtividade.dart';
 import 'package:spr/standard/pesquisa.dart';
 import '../../standard/design.dart';
@@ -394,7 +392,7 @@ class _CalcArtriteState extends State<CalcArtrite> {
   }
 
   modalMetrica() {
-    showCupertinoModalBottomSheet(
+    showCupertinoDialog(
       context: context,
       builder: (context) {
         return Scaffold(
